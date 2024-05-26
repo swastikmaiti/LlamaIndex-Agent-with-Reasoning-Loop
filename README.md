@@ -11,3 +11,22 @@ response.
 A agent consist of Agent Runner and Agent Worker. These two componnt interact in a cyclic manner until final response. Agent worker perform
 the actual work of tool selection through reasoning via chain of thoughts and deciding next step or formulating the final output. Whereas Agent Runner
 is the orechastator responsible for mainintaining task state and memory buffer. It works more like a scheduler and dispatcher.
+
+The Image below shows the Agent Reasoning Loop in a General Way.
+
+
+<img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop.png" height="500" width="500" >
+
+# Control Flow
+
+On a broader term the Reasoning Loop perform tasks in a logical sequence. Well what is the sequence. How every component is interacting?
+
+To understand the workflow we need to undestand chain of thoughts. To break a complex task into subtask LlamaIndex Agent makes use of chain 
+of thought to guide the LLM into deciding the next action. These chain of thought are introduced by template with some fixed set of prompts and some 
+dymanic context relevant to the current step.
+
+The diagram below shows the sequence of events in an `AGENT REASONING LOOP`
+
+<img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop_controlflow.png" height="500" width="800" >
+
+
