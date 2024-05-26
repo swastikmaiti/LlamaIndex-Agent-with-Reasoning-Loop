@@ -30,3 +30,35 @@ The diagram below shows the sequence of events in an `AGENT REASONING LOOP`
 <img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop_controlflow.png" height="500" width="800" >
 
 
+# Frameworks
+- ***Agentic-RAG:*** Llama Index
+- ***App:*** Gradio
+- ***LLM:*** Llama3 8B
+- ***Embedding:*** nomic-embed-text
+- ***Local LLM:*** Ollama
+
+# Decription of files in sequence they were developed
+The code description are provided within the files.
+- agent-reasoning-loop.ipynb: the notebook for complete code on developing the agentic rag with reasoning loop.
+- app.py: finally build a Application with Gradio. This is build on top of `agent-reasoning-loop.ipynb`. Tools creation functions are present in `utils.py` and AGENT creation funtions are present in `get_agent.py`
+
+# How to RUN
+- All the work is developed in LINUX env so we need a LINUX system with atleast 8GB RAM.
+- Create a Virtual Env
+- Install libraries with `make install`
+- Download Ollama Docker Image and start Server with `ollama_docker`
+- Now `agent-reasoning-loop.ipynb` Notebook can be executed.
+
+To Run the APP
+```
+docker compose up
+```
+If previous images or container exist with same name it may create conflict.
+
+# Acknowledgements
+- Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
+- Thanks to `Meta` for open source Llama3
+
+
+
+
