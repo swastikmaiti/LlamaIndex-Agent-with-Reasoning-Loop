@@ -36,6 +36,7 @@ The diagram below shows the sequence of events in an `AGENT REASONING LOOP`
 - ***LLM:*** Llama3 8B
 - ***Embedding:*** nomic-embed-text
 - ***Local LLM:*** Ollama
+- ***Containerization:*** Docker
 
 # Decription of files in sequence they were developed
 The code description are provided within the files.
