@@ -55,6 +55,10 @@ docker compose up
 ```
 If previous images or container exist with same name it may create conflict.
 
+# References
+- [`LlamaIndex`](https://docs.llamaindex.ai/en/stable/)
+- [`DeepLearning.AI`](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
+
 # Acknowledgements
 - Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
 - Thanks to `Meta` for open source Llama3
