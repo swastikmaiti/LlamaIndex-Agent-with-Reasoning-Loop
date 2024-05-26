@@ -12,7 +12,7 @@ A agent consist of Agent Runner and Agent Worker. These two componnt interact in
 the actual work of tool selection through reasoning via chain of thoughts and deciding next step or formulating the final output. Whereas Agent Runner
 is the orechastator responsible for mainintaining task state and memory buffer. It works more like a scheduler and dispatcher.
 
-The Image below shows the Agent Reasoning Loop in a General Way.
+The Image below shows the Agent Reasoning Loop with Agent Component and their role.
 
 
 <img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop.png" height="500" width="500" >
