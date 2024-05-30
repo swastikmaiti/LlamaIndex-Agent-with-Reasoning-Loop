@@ -66,6 +66,5 @@ If previous images or container exist with same name it may create conflict.
 - Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
 - Thanks to `Meta` for open source Llama3
 
-
-
+### If you find the repo helpful, please drop a ⭐
 
