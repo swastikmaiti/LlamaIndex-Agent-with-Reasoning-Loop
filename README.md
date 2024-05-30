@@ -15,7 +15,9 @@ is the orechastator responsible for mainintaining task state and memory buffer. 
 The Image below shows the Agent Reasoning Loop with Agent Component and their role.
 
 
-<img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop.png" height="500" width="500" >
+<img src="https://github.com/swastikmaiti/Reasoning-AGENT/blob/114af6cab5a4823d7b5ee065525c21cda933abdd/agent_reasoning_loop.png" height="500" width="500" >  
+
+`image refernec:`[`DeepLearning.AI`](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
 
 # Control Flow
 
