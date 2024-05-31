@@ -1,9 +1,11 @@
 # Reasoning-AGENT
-Simple agents are good for 1-to-1 retrieval system. For more complex task we need multi steps reasoning loop.  In a reasoning loop the agent can break down a complex task into subtasks and solve them step by step while maintaining a conversational memory.
+RAG system with Agent is a good syatem for single step question answering. It means a simple Agent can dynamically choose between tools based on current
+state and perform a single pass operation through pipeline tools to generate response. A complex task may require breaking down a instruction into
+subtaska and perfrom sequentially. When performing sub taks sequentially we also need a buffer memory to keep track of the works. This powers is incorporated
+into agent with a reasonong loop in Llama Index.
 
 
 # Intoduction
-In the our previous [`WORK`](https://github.com/swastikmaiti/AGENTIC-RAG.git), we have discussed about what is an agent and how AGENTIC-RAG works. 
 A simple Agentic-RAG is good for 1-to-1 question answering. However a complex task may requiire sequence of subtasks to be executed to arrive at
 the final answer. This is where reasoning loop comes into play. In a reasoning loop the agent is able to perform subtaks sequentially until final 
 response. 
