@@ -40,23 +40,18 @@ The diagram below shows the sequence of events in an `AGENT REASONING LOOP`
 - ***Local LLM:*** Ollama
 - ***Containerization:*** Docker
 
-# Decription of files in sequence they were developed
-The code description are provided within the files.
-- agent-reasoning-loop.ipynb: the notebook for complete code on developing the agentic rag with reasoning loop.
-- app.py: finally build a Application with Gradio. This is build on top of `agent-reasoning-loop.ipynb`. Tools creation functions are present in `utils.py` and AGENT creation funtions are present in `get_agent.py`
+# File Structure
+- agent-reasoning-loop.ipynb: Code for implementing an RAG Agent with Llama Index.
+- app.py: Code Gradio application. Tools creation functions are present in `utils.py` and AGENT creation funtions are present in `get_agent.py`
 
 # How to RUN
-- All the work is developed in LINUX env so we need a LINUX system with atleast 8GB RAM.
-- Create a Virtual Env
+We need a LINUX system with atleast 8GB RAM.
 - Install libraries with `make install`
-- Download Ollama Docker Image and start Server with `ollama_docker`
+- To Run the Application execute `docker compose up`
+If you want to run the notebooks
+- Download Ollama Docker Image and start Ollama server with `ollama_docker` on a new CLI as the server will block the CLI.
 - Now `agent-reasoning-loop.ipynb` Notebook can be executed.
-
-To Run the APP
-```
-docker compose up
-```
-If previous images or container exist with same name it may create conflict.
+If previous images or container exist with same name it may create conflict. Delete image/conatiners if name conflict occurs.
 
 # References
 - [`LlamaIndex`](https://docs.llamaindex.ai/en/stable/)
